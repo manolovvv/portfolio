@@ -29,10 +29,13 @@ const sections = document.querySelectorAll("section[id]")
 window.addEventListener('scroll',scrollActive)
 
 function scrollActive(){
-    const scrollY = window.pageXOffset
+    const scrollY = window.pageYOffset
+    //console.log(scrollY)
     sections.forEach(current=>{
-        const sectionHeight = current.pageXOffsetHeight
+        const sectionHeight = current.offsetHeight
+      //  console.log(sectionHeight)
         const sectionTop = current.offsetTop - 50
+        //console.log(sectionTop)
         sectionId = current.getAttribute('id')
 
         if(scrollY>sectionTop && scrollY <= sectionTop +sectionHeight){
