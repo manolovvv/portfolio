@@ -165,10 +165,10 @@ img{
 }
 
 .home__img{
-    padding-top: 1.3rem;
-    padding-left: .8rem;
-    width: 160px;
-    height: 160px;
+    //padding-top: 1.3rem;
+    //padding-left: .8rem;
+   // width: 160px;
+    //height: 160px;
     background-color: $first-color;
     border-radius: 50%;
     overflow: hidden;
@@ -324,29 +324,29 @@ img{
 
 
     &.skills__html{
-        width:80%;
+        width: 80%;
     }
     
     &.skills__javascript{
-        width:80%;
+        width:90%;
     }
     &.skills__react{
         width:80%;
     }
     &.skills__sass{
-        width:80%;
+        width:60%;
     }
     &.skills__spring{
         width:80%;
     }
     &.skills__net{
-        width:80%;
+        width:50%;
     }
     &.skills__firebase{
         width:80%;
     }
     &.skills__swift{
-        width:80%;
+        width:40%;
     }
     
 }
