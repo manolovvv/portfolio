@@ -5,6 +5,11 @@ form.addEventListener('submit',(event)=>{
     const subject = document.querySelector('#formSubject').value
     const email = document.querySelector('#formEmail').value
     const message = document.querySelector('#formMessage').value
+    const btnSubmit = document.querySelector('#btnSubmit')
+
+    btnSubmit.style.backgroundColor = "#662616";
+
+    
 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {

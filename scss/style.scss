@@ -434,6 +434,10 @@ img{
     font: $body-font;
     font-size: $normal-font-size;
     cursor: pointer;
+
+    &:active{
+            transform: translateY(3px);
+    }
 }
 
 .contact__info{
